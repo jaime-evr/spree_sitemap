@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_sitemap'
-  s.version     = '2.0.0.beta'
+  s.version     = '1.3.beta'
   s.summary     = 'Provides a sitemap file for Spree'
   s.description = s.summary
   s.required_ruby_version = '>= 1.9.3'
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_runtime_dependency 'spree_core', '~> 2.3.0.beta'
+  s.add_runtime_dependency 'spree_core', '~> 1.3.2'
   s.add_runtime_dependency 'sitemap_generator', '~> 4.3.1'
 
   s.add_development_dependency 'database_cleaner', '~> 1.2.0'
